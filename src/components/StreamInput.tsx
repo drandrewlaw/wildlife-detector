@@ -39,8 +39,8 @@ export function StreamInput({ onDetect, isLoading }: StreamInputProps) {
 
     // Example wildlife streams
     const exampleStreams = [
-        { name: 'African Watering Hole', url: 'https://www.youtube.com/watch?v=ydYDqZQpim8' },
-        { name: 'Coral Reef Cam', url: 'https://www.youtube.com/watch?v=HJVr1CKz11E' },
+        { name: 'Namibia Watering Hole', url: 'https://www.youtube.com/watch?v=uXNU0XgGZhs' },
+        { name: 'African Wildlife', url: 'https://www.youtube.com/watch?v=ydYDqZQpim8' },
     ];
 
     return (
