@@ -164,7 +164,7 @@ export default function Home() {
               <p className="text-sm text-zinc-500">
                 Powered by{' '}
                 <a
-                  href="https://demo.machinefi.com/"
+                  href="https://trio.machinefi.com/docs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-emerald-400 hover:text-emerald-300 transition-colors"

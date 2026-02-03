@@ -1,7 +1,7 @@
 // VibeStream API Client
 // API Docs: https://iotex.mintlify.app/introduction
 
-const VIBESTREAM_API_URL = 'https://vibestream.machinefi.com';
+const VIBESTREAM_API_URL = 'https://trio.machinefi.com';
 
 export interface CheckOnceRequest {
     youtube_url: string;
@@ -60,7 +60,7 @@ export async function checkOnce(request: CheckOnceRequest): Promise<CheckOnceRes
  * Start continuous monitoring - async with webhooks
  */
 export async function startWatch(request: WatchRequest): Promise<WatchResponse> {
-    const response = await fetch(`${VIBESTREAM_API_URL}/watch`, {
+    const response = await fetch(`${VIBESTREAM_API_URL}/live-monitor`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
